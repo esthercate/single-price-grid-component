@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/*SCSS Variables
+---------------------------------------------------*/
+
+$Cyan: hsl(179, 62%, 43%); //Primary color
+$light-cyan: hsl(179, 62%, 46%);
+$Bright-Yellow: hsl(71, 73%, 54%); //Primary color
+$Light-Gray: hsl(204, 43%, 93%); //Neutral color
+$Grayish-Blue: hsl(218, 22%, 67%); //Neutral color
+$padding: 1.25rem;
+
+/*General styling
+---------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background: $Light-Gray;
+    display: block;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+/* Container 
+---------------------------------------------------*/
+
+.container {
+    max-width: 350px;
+    margin: 1.5rem;
+    
+}
+
+/* Hero Section
+---------------------------------------------------*/
+
+.hero {
+    background: white;
+    padding: $padding;
+    border-radius: 6px 6px 0 0;
+
+    .main-header {
+        color: $Cyan;
+        padding: $padding 0;
+    }
+
+    .description {
+        color: $Bright-Yellow;
+        padding-bottom: $padding;
+    }
+
+    .hero-paragraph {
+        color: $Grayish-Blue;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+/* Main Section
+---------------------------------------------------*/
+
+.main {
+
+    .subscription {
+        background: $Cyan;
+    }
+
+    .about {
+        background: $light-cyan;
+    }
+}

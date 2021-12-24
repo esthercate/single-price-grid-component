@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+/*SCSS Variables
+---------------------------------------------------*/
+/*General styling
+---------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background: #e5eff5;
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution .attribution a {
+  color: #3e52a3;
+}
+
+/* Container 
+---------------------------------------------------*/
+.container {
+  max-width: 350px;
+  margin: 1.5rem;
+}
+
+/* Hero Section
+---------------------------------------------------*/
+.hero {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 6px 6px 0 0;
+}
+
+.hero .main-header {
+  color: #2ab2af;
+  padding: 1.25rem 0;
+}
+
+.hero .description {
+  color: #c0df34;
+  padding-bottom: 1.25rem;
+}
+
+.hero .hero-paragraph {
+  color: #98a6bd;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Main Section
+---------------------------------------------------*/
+.main .subscription {
+  background: #2ab2af;
+}
+
+.main .about {
+  background: #2dbebc;
+}
+/*# sourceMappingURL=main.css.map */
